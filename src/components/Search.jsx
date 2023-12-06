@@ -21,7 +21,7 @@ import {
 
 export default function Search() {
   return (
-    <Card className="w-[350px]">
+    <Card>
       <CardHeader>
         <CardTitle>通学時間で高校を検索</CardTitle>
         <CardDescription>通学時間や通学方法を選択してください。</CardDescription>
