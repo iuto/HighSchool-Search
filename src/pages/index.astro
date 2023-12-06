@@ -1,0 +1,22 @@
+---
+import Search from '../components/Search';
+import DefaultHeader from '../layouts/DefaultHeader.astro';
+import DefaultFooter from '../layouts/DefaultFooter.astro';
+import 'app/globals.css'
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>高校検索サイト</title>
+	</head>
+	<body>
+    <DefaultHeader />
+    <div class="mx-auto my-80 2xl:w-1/2 sm:w-4/5">
+      <Search client:load />
+    </div>
+	</body>
+  <DefaultFooter />
+</html>
+
